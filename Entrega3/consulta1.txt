@@ -1,0 +1,38 @@
+Cuestionario en ubuntu
+
+1.- Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en otros no?
+
+La compatibilidad de un lenguaje de programación con un sistema operativo puede verse limitada por varias razones:
+
+	Dependencias del sistema: Algunos lenguajes requieren componentes o bibliotecas específicas que pueden no estar disponibleas en todos los sistemas operativos.
+
+	Diseño y objetivo del lenguaje: Algunos lenguajes están diseñados para sistemas operativos particulares o tienen objetivos específicos.
+
+	Implementación y compilación: La forma en que se implementa y compila un lenguaje puede estar ligada a un sistema operativo en particular, lo que dificulta su uso en otros sistemas.
+
+	Recursos y soporte comunitario: La disponibilidad de recursos y el soporte comunitario pueden variar según el sistema operativo, lo que afecta la compatibilidad de un lenguaje.
+
+A pesar de estas limitaciones, muchos lenguajes de programación son multiplataforma y se pueden utilizar en diferentes sistemas operativos con el uso de herramientas adicionales.
+
+2.- Qué tipo de máquina virtual es virtual Box?
+
+VirtualBox es una plataforma de virtualización de código abierto desarrollada por Oracle. Proporciona una máquina virtual (VM) que emula un entorno de hardware completo en el que se pueden ejecutar otros sistemas operativos. VirtualBox utiliza una combinación de técnicas de virtualización por software y hardware para crear y administrar estas máquinas virtuales.
+
+En términos de virtualización, VirtualBox es conocido como un hipervisor de tipo 2 o "hosted hypervisor". Esto significa que se instala y se ejecuta como una aplicación en un sistema operativo anfitrión existente, como Windows, macOS o Linux. A través de este hipervisor, VirtualBox permite la creación y el funcionamiento de múltiples máquinas virtuales, cada una de las cuales puede ejecutar su propio sistema operativo y aplicaciones.
+
+VirtualBox admite una amplia gama de sistemas operativos invitados, lo que significa que puedes ejecutar diferentes sistemas operativos dentro de las máquinas virtuales, incluyendo versiones de Windows, macOS, Linux, Solaris, y otros.
+
+En resumen, VirtualBox es una máquina virtual que actúa como un hipervisor de tipo 2 y permite la virtualización de sistemas operativos dentro de un sistema operativo anfitrión existente.
+
+3.- Si tengo más de una máquina virtual instalada, y una se rompe, esto afecta a las démas? por qué?
+
+Si tienes varias máquinas virtuales instaladas en un hipervisor como VirtualBox y una de ellas se rompe, generalmente no afectará a las demás máquinas virtuales. Esto se debe a que las máquinas virtuales se ejecutan de manera aislada y separada unas de otras.
+
+Cada máquina virtual tiene su propio sistema operativo y recursos asignados, como memoria, CPU y almacenamiento. Esto significa que los problemas que ocurran en una máquina virtual, como un fallo del sistema operativo o una aplicación que deja de funcionar, se limitarán a esa máquina virtual en particular y no se propagarán a las demás.
+
+El aislamiento entre las máquinas virtuales se logra a través del hipervisor, que actúa como una capa de virtualización entre el hardware físico y las máquinas virtuales. El hipervisor se encarga de gestionar y asignar los recursos de manera adecuada, evitando así que un fallo en una máquina virtual afecte a otras.
+
+Sin embargo, es importante destacar que si hay un problema grave a nivel del hipervisor o del sistema operativo anfitrión en el que se ejecuta VirtualBox, todas las máquinas virtuales podrían verse afectadas. Es recomendable mantener tanto el hipervisor como el sistema operativo anfitrión actualizados y seguros para garantizar un entorno estable y confiable para las máquinas virtuales.
+
+
+
