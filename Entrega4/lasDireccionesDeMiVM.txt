@@ -1,0 +1,22 @@
+COnsulta 2
+1.- La IP privada y pública de la maquina virtual 
+    
+    IP PUBLICA
+      inet 127.0.0.1/8 scope host lo
+    IP PRIVADA
+      inet 192.168.93.129/24 brd 192.168.93.255
+
+
+2.- la direccion Mac
+
+     00:0c:29:0d:45:99 brd ff:ff:ff:ff:ff:ff
+
+3.- Es diferente a la IP publica y privada de nuestra maquina host?
+
+    Las direcciones IP publica y privadas de la maquina virtual 
+    Ubuntu pueden ser diferentes a las direcciones 
+    IP de la maquina host. Esto es porque son diferentes sistemas operativos y se les asigna 
+    direcciones IP dentro de sus propias redes locales.
+    En este caso la ip publica es la misma porque se encuentran en la misma red pero las ip privadas si cambian.
+
+
