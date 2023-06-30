@@ -1,4 +1,5 @@
 Telnet:
+
 a) Pregunta: ¿Cuáles son las ventajas y desventajas de utilizar el protocolo Telnet?
 
 Ventajas de Telnet:
@@ -26,6 +27,7 @@ Desventajas de Telnet como protocolo de acceso remoto:
     Riesgo de ataques: Telnet puede ser vulnerable a ataques de tipo "man-in-the-middle" y "sniffing", lo que compromete la confidencialidad de la comunicación.
 
 SSH:
+
 a) Pregunta: ¿Cuáles son las ventajas y desventajas de utilizar el protocolo SSH?
     
     Ventajas de utilizar el protocolo SSH:
